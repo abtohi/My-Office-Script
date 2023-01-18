@@ -1,3 +1,22 @@
+/*
+Melakukan grouping data array 2D\
+Contoh :
+data = [
+        ["proj1","A",10],
+        ["proj2","B",15],
+        ["proj1","A",3],
+        ["proj2","B",5],
+        ["proj1","B",10]
+       ]
+out = groupAndSum(data)
+out:
+[
+  ["proj1","A",13],
+  ["proj2","B",20],
+  ["proj1","B",10]
+]
+*/
+
 function groupAndSum(data:string) {
   const groupedAndSummed: number[][] = [];
   const intermediate: { [key: string]: { [key: string]: number } } = {};
