@@ -1,5 +1,5 @@
 /*
-Melakukan grouping data array 2D\
+Melakukan grouping data array 2D dan grouping berdasarkan satu kriteria kolom1
 Contoh :
 data = [["proj1",10],["proj2",15],["proj1",3]]
 out = groupAndSum(data)
