@@ -1,5 +1,5 @@
 /*
-Melakukan grouping data array 2D\
+Melakukan grouping data array 2D dan grouping berdasarkan 2 kriteria, kolom1 dan kolom2
 Contoh :
 data = [
         ["proj1","A",10],
